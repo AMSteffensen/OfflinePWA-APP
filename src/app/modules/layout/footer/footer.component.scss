@@ -1,0 +1,23 @@
+@import '../../../../styles.scss';
+
+.footer
+{
+ background-color: $surface-color;
+ color: #fff;
+ display: flex;
+ box-sizing: border-box;
+ padding: 1rem;
+ flex-direction: column;
+ align-items: center;
+ white-space: nowrap;
+ &__copyright {
+   text-align: center;
+ }
+}
+
+.addIcon {
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  color: #fff;
+}

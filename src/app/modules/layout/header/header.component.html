@@ -1,0 +1,11 @@
+<mat-toolbar color="primary">
+  <span>Online PWA</span>
+  <button mat-icon-button [mat-menu-trigger-for]="menu">
+    <mat-icon>more_vert</mat-icon>
+  </button>
+</mat-toolbar>
+<mat-menu x-position="before" #menu="matMenu">
+  <button mat-menu-item>Home</button>
+  <button mat-menu-item>Profile</button>
+  <button mat-menu-item>Add note</button>
+</mat-menu>

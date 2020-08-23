@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "offline-pwa-5ee8c"
+  },
+  "targets": {
+    "offline-pwa-5ee8c": {
+      "hosting": {
+        "lovely-offline": [
+          "offline-pwa-5ee8c"
+        ]
+      }
+    }
+  }
+}
